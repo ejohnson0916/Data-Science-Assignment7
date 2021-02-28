@@ -9,7 +9,7 @@ for line in sys.stdin:
      if len(data) == 6:
          date, time, store, item, cost, payment = data
 
-     print("{0}\t{1}".format(item, cost))
+     print("{0}\t{1}\t{2}".format(item, cost, time))
 
 # 2. Add the timedelta to the datetime and subtract 60 seconds and add 2 years.
 
